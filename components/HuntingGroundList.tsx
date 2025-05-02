@@ -45,7 +45,7 @@ const huntingGrounds = [
   },
   {
     name: "월드 던전",
-    note: "105렙 이상 통제",
+    note: "105렙만 사냥가능",
     type: "dungeon",
     control: true,
   },

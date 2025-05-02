@@ -39,7 +39,7 @@ export default function BottomNavBar() {
         onClick={goToBuyer}
       >
         <span className='text-lg'>🛒</span>
-        <span className='text-xs font-semibold mt-1'>구매자</span>
+        <span className='text-xs font-semibold mt-1'>삽니다</span>
       </button>
     </nav>
   );
