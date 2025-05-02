@@ -54,6 +54,7 @@ const huntingGrounds = [
     note: "클릭해서 범위,시간 확인",
     type: "dungeon",
     control: true,
+    url: "https://page.onstove.com/l9/global/view/10610805?boardKey=128093",
   },
 ];
 
@@ -73,7 +74,17 @@ const HuntingGroundList = () => {
               <span className='text-white font-semibold text-sm'>
                 {item.name}
               </span>
-              <span className='text-gray-300 text-xs'>{item.note}</span>
+              {item.url ? (
+                <a
+                  href={item.url}
+                  target='_blank'
+                  className='text-gray-300 text-xs'
+                >
+                  {item.note}
+                </a>
+              ) : (
+                <span className='text-gray-300 text-xs'>{item.note}</span>
+              )}
             </div>
             {item.control && (
               <span className='ml-2 text-red-500 text-base'>통제</span>
