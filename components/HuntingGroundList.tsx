@@ -1,6 +1,6 @@
 const huntingGrounds = [
   { name: "붉은 억새 평원", note: "전체", type: "field", control: false },
-  { name: "바르바스", note: "전체", type: "field", control: true },
+  { name: "바르바스", note: "전체", type: "field", control: false },
   {
     name: "티리오사의 무덤 지하 1층",
     note: "전체",
@@ -41,13 +41,13 @@ const huntingGrounds = [
     name: "드라카스 화산",
     note: "전체",
     type: "dungeon",
-    control: true,
+    control: false,
   },
   {
     name: "월드 던전",
-    note: "105렙만 사냥가능",
+    note: "전체",
     type: "dungeon",
-    control: true,
+    control: false,
   },
   {
     name: "월드",
