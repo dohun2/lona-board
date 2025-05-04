@@ -60,8 +60,8 @@ const huntingGrounds = [
 
 const HuntingGroundList = () => {
   return (
-    <div className=' bg-[#212121]  p-0 flex flex-col'>
-      <div className='flex-1 overflow-y-auto m-1 pb-[60px]'>
+    <div className=' bg-black  p-0 flex flex-col'>
+      <div className='flex-1 overflow-y-auto m-1 pb-16 pt-18'>
         {huntingGrounds.map((item) => (
           <div
             key={item.name}

@@ -9,12 +9,12 @@ type BuyerTableItem = {
 
 const BuyerTable = ({ data }: BuyerTableProps) => {
   return (
-    <div className='w-full max-w-[375px] mx-auto p-4'>
+    <div className='w-full mx-auto p-3 pt-19'>
       <table className='w-full text-left bg-[#232323] rounded-lg overflow-hidden'>
         <thead>
           <tr className='bg-[#181818] text-yellow-300'>
-            <th className='py-2 px-3'>구매 아이템</th>
-            <th className='py-2 px-3'>닉네임</th>
+            <th className='py-2 px-3 text-sm'>구매 아이템</th>
+            <th className='py-2 px-3 text-sm'>닉네임</th>
           </tr>
         </thead>
         <tbody>
