@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description: "라디언트4 통제,공지 통합 정보판",
+  themeColor: "#232323",
 };
 
 export default function RootLayout({
@@ -30,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#232323]`}
       >
         <TopBoard />
         {children}
