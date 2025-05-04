@@ -7,7 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "라디언트4 통제,공지 통합 정보판",
     start_url: "/",
     display: "standalone",
-    background_color: "#ffffff",
+    background_color: "#232323",
     theme_color: "#232323",
     icons: [
       {
