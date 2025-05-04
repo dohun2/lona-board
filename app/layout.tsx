@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import type { Viewport } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import TopBoard from "@/components/TopBoard";
@@ -24,10 +24,6 @@ export const metadata: Metadata = {
   themeColor: "#232323",
 };
 
-export const viewport: Viewport = {
-  themeColor: "black",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -41,6 +37,7 @@ export default function RootLayout({
         <TopBoard />
         {children}
         <BottomNavBar />
+        <Analytics />
       </body>
     </html>
   );
