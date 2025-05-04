@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import TopBoard from "@/components/TopBoard";
@@ -21,6 +22,10 @@ export const metadata: Metadata = {
   },
   description: "라디언트4 통제,공지 통합 정보판",
   themeColor: "#232323",
+};
+
+export const viewport: Viewport = {
+  themeColor: "black",
 };
 
 export default function RootLayout({

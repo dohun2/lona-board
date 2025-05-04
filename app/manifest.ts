@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "LonaBoard",
-    short_name: "LonaBoard",
+    name: "로나보드",
+    short_name: "로나보드",
     description: "라디언트4 통제,공지 통합 정보판",
     start_url: "/",
     display: "standalone",
