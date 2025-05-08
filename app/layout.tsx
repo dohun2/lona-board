@@ -24,6 +24,7 @@ export const metadata: Metadata = {
   themeColor: "#232323",
   other: {
     "google-site-verification": "VUhALrgfBxRxPoIE5nbzM9CvOVnRPn4rMGUHWDOk38w",
+    "naver-site-verification": "a810533e5e2ff9dcd1bfab54163fd77e48c794d2",
   },
 };
 
