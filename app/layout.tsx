@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   },
   description: "라디언트4 통제,공지 통합 정보판",
   themeColor: "#232323",
+  other: {
+    "google-site-verification": "VUhALrgfBxRxPoIE5nbzM9CvOVnRPn4rMGUHWDOk38w",
+  },
 };
 
 export default function RootLayout({
