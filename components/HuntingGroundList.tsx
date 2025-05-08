@@ -1,3 +1,7 @@
+"use client";
+
+import { useEffect } from "react";
+
 const huntingGrounds = [
   { name: "붉은 억새 평원", note: "전체", type: "field", control: false },
   { name: "바르바스", note: "전체", type: "field", control: false },
@@ -58,7 +62,30 @@ const huntingGrounds = [
   },
 ];
 
+const requestPermission = async () => {
+  if (!("Notification" in window)) {
+    console.warn("This browser does not support notifications.");
+    return;
+  }
+
+  const permission = Notification.permission;
+  if (permission === "granted") {
+    return;
+  }
+
+  try {
+    const result = await Notification.requestPermission();
+    console.log("Notification permission:", result);
+  } catch (error) {
+    console.error("Failed to get notification permission:", error);
+  }
+};
+
 const HuntingGroundList = () => {
+  useEffect(() => {
+    requestPermission();
+  }, []);
+
   return (
     <div className=' bg-black  p-0 flex flex-col'>
       <div className='flex-1 overflow-y-auto m-1 pb-16 pt-18'>

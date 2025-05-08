@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import TopBoard from "@/components/TopBoard";
 import BottomNavBar from "@/components/BottomNavBar";
@@ -42,6 +43,7 @@ export default function RootLayout({
         {children}
         <Analytics />
         <BottomNavBar />
+        <Script src='/service-worker.js' />
       </body>
     </html>
   );
