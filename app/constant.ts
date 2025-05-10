@@ -60,5 +60,5 @@ export const HUNTING_GROUNDS = [
 
 export const BUYER_LIST = [
   { content: "영방5강 40", nickname: "이뚜둘" },
-  { content: "영방5강 아잠 40 나머지 50", nickname: "조태오" },
+  { content: "영방5강 잿빛이상 50 나머지 40", nickname: "조태오" },
 ];
