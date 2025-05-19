@@ -27,15 +27,15 @@ export const HUNTING_GROUNDS = [
   },
   {
     name: "죽은 자의 대지 2구역",
-    note: "전체",
+    note: "원판, 스마일만 통제제",
     type: "dungeon",
-    control: true,
+    control: false,
   },
   {
     name: "죽은 자의 대지 3구역",
     note: "전체",
     type: "dungeon",
-    control: true,
+    control: false,
   },
   {
     name: "드라카스 화산",
@@ -60,6 +60,6 @@ export const HUNTING_GROUNDS = [
 
 export const BUYER_LIST = [
   { content: "영방5강 40", nickname: "이뚜둘" },
-  { content: "영방5강 잿빛이상 50 나머지 40", nickname: "조태오" },
   { content: "영방5강 40", nickname: "격차" },
+  { content: "영방5강 40", nickname: "장뚜둘둘" },
 ];
