@@ -27,7 +27,7 @@ export const HUNTING_GROUNDS = [
   },
   {
     name: "죽은 자의 대지 2구역",
-    note: "원판, 스마일만 통제제",
+    note: "원판, 스마일만 통제",
     type: "dungeon",
     control: false,
   },
@@ -61,5 +61,6 @@ export const HUNTING_GROUNDS = [
 export const BUYER_LIST = [
   { content: "영방5강 40", nickname: "이뚜둘" },
   { content: "영방5강 40", nickname: "격차" },
-  { content: "영방5강 40", nickname: "장뚜둘둘" },
+  { content: "영방5강 40", nickname: "장뚜둘" },
+  { content: "영방5강 40", nickname: "박필두" },
 ];
