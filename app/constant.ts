@@ -63,4 +63,6 @@ export const BUYER_LIST = [
   { content: "영방5강 40", nickname: "격차" },
   { content: "영방5강 40", nickname: "장뚜둘" },
   { content: "영방5강 40", nickname: "박필두" },
+  { content: "영방5강 40", nickname: "핑뚜둘" },
+  { content: "영방5강 40", nickname: "홍삼맛쿠키" },
 ];
